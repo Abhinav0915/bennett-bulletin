@@ -1,16 +1,24 @@
-.heading{
-    font-style: oblique;
+.heading
+{
     font-weight: 500;
-    font-variant: small-caps;
     font-size: 35px;
-    font-family: cursive;
 }
-
-.title,.content{
+.body
+{
+    background-color: #1c262e;
+    color: white;
+}
+.title,.content
+{
     font-size: 25px;
+    position: relative;
+    
 }
 
-.title_input    {
+.title_input    
+{
+    position: relative;
+    left: 40px;
     width: 900px;
     height: 30px;
     font-size: 20px;
